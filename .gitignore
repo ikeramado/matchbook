@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+# The event log is public data, downloaded apart; it never goes in git.
+*.xes
+# The output of the README's usage command.
+/findings.tsv
+.env
+.env.*
